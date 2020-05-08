@@ -30,6 +30,12 @@ h1{
 
 h3{
 	font-size:150%;
+	text-align:center;
+}
+
+.current-contaminant h4{
+	font-weight: bold;
+	font-size:100%;
 }
 
 footer{
@@ -40,6 +46,24 @@ footer{
 footer img{
 	width:100px;
 	margin:60px;
+}
+
+button {
+	border: none;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	width: 20%;
+	border: 1px solid black;
+	margin:2px;
+}
+
+button:hover {
+  background-color:  #dddddd;
+}
+
+li{
+	text-align:left;
 }
 
 .bar{
@@ -76,12 +100,12 @@ footer img{
 	margin-right:auto;
 	width:15%;
 }
-#contentT{
-	text-align: center;
-}
+
 #content{
-	text-align:center;
+	text-align:left;
 	margin-bottom: 50px;
+	margin-right:10%;
+	margin-left:10%;
 }
 
 #content-picture{
@@ -91,18 +115,6 @@ footer img{
 	margin-bottom: 20px;
 }
 
-#content-text{
-	text-align: left;
-	margin-right:20%;
-}
-
-.container {
-	position: relative;
-	width: 30%;
-	/*width: 300px;*/
-    float:left; /* add this */
-}
-
 .image {
 	display: block;
 	width: 100%;
@@ -110,42 +122,15 @@ footer img{
 	border-style: solid;
 }
 
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: #a0c5e8;
-	overflow:auto;
-}
-
-.container:hover .overlay {
-	opacity: 1;
-}
-
-.text {
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -30%);
-	-ms-transform: translate(-30%, -30%);
-	transform: translate(-50%, -20%);
-	text-align: center;
-}
-
 .contaminants{
-	width: 500px;
-    border: 1px solid black;
-    overflow: hidden;
-    margin-left:30%;
-    margin-right:30%;
+	margin-left:10%;
+	width:50%;
+
+}
+
+.current-contaminant{
+	text-align:left;
+	overflow:hidden;
 }
 
 #col-A{
@@ -166,3 +151,19 @@ footer img{
 	margin-right:20px;
 	margin-left:20px;
 }
+
+.section1{
+	float:left;
+	width:200px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.organSection{
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+
+
