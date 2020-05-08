@@ -20,6 +20,19 @@ a:hover {
 a:active {
 	text-decoration: underline;
 }
+button {
+	border: none;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	width: 20%;
+	border: 1px solid black;
+	margin:2px;
+}
+
+button:hover {
+  background-color:  #dddddd;
+}
 
 h1{
 	text-align:center;
@@ -104,40 +117,13 @@ footer{
 	border-style: solid;
 }
 
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: #a0c5e8;
-	overflow:auto;
-}
-
-.container:hover .overlay {
-	opacity: 1;
-}
-
-.text {
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -30%);
-	-ms-transform: translate(-30%, -30%);
-	transform: translate(-50%, -20%);
-	text-align: center;
-}
-
 .contaminants{
 	width: 500px;
-    border: 1px solid black;
     overflow: hidden;
-    margin-left:30%;
-    margin-right:30%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sectionsQuality img{
+	width:90%;
 }

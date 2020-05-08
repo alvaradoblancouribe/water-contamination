@@ -1,6 +1,7 @@
 
 body{
 	font-family: 'Muli', sans-serif;
+	font-size:18px;
 }
 
 a:link {
@@ -33,14 +34,16 @@ h3{
 	text-align:center;
 }
 
-.current-contaminant h4{
+h4{
 	font-weight: bold;
-	font-size:100%;
+	font-size:115%;
 }
 
 footer{
 	border:solid;
 	height: 250px;
+	clear:both;
+	font-size:14px;
 }
 
 footer img{
@@ -124,13 +127,18 @@ li{
 
 .contaminants{
 	margin-left:10%;
-	width:50%;
+	width:60%;
+	float:left;
 
 }
 
 .current-contaminant{
 	text-align:left;
 	overflow:hidden;
+}
+
+#othersText{
+	float:left;
 }
 
 #col-A{
@@ -164,6 +172,15 @@ li{
 	margin-right:auto;
 	overflow:hidden;
 }
-
+.sectionsQuality{
+	width:30%;
+	text-align:center;
+	float:left;
+	margin-right:10%;
+	margin-left:10%;
+}
+.sectionsQuality img{
+	width:90%;
+}
 
 
