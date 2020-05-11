@@ -193,4 +193,15 @@ li{
 	width:40%;
 }
 
+.solutions-image{
+	width:20%;
+	margin-right:10%;
+	float:left;
+
+}
+
+.solutions-text{
+	overflow:hidden;
+}
+
 
