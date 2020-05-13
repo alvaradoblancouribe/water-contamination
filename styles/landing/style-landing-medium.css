@@ -33,15 +33,17 @@ h3{
 }
 
 footer{
+	clear:both;
 	border:solid;
 	height: 250px;
 }
 
 footer img{
-	width:100px;
-	margin:60px;
+	visibility:hidden;
+	position:relative;
+
 }
-}
+
 p{
 	visibility:hidden;
 	position:relative;
@@ -63,7 +65,7 @@ p{
 
 .bar-li:hover{
 	transition: .5s ease;
-	height:20%;
+	background-color:#6fa8dc;
 }
 
 .bar-li{
@@ -88,18 +90,18 @@ p{
 #col-A{
 	float:right;
 	width:120px;
-	margin-right:20px;
-	margin-left:20px;
+	margin-right:10px;
+	margin-left:10px;
 }
 #col-B{
 	float:right;
-	width:150px;
-	margin-right:20px;
-	margin-left:20px;
+	width:110px;
+	margin-right:10px;
+	margin-left:10px;
 }
 #col-C{
 	float:right;
-	width:150px;
-	margin-right:20px;
-	margin-left:20px;
+	width:110px;
+	margin-right:10px;
+	margin-left:10px;
 }

@@ -56,7 +56,7 @@ p{
 
 .bar-li:hover{
 	transition: .5s ease;
-	height:20%;
+	background-color:#6fa8dc;
 }
 
 .bar-li{

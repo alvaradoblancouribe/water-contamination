@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-  background-color:  #dddddd;
+	background-color:  #dddddd;
 }
 
 h1{
@@ -43,6 +43,7 @@ h1{
 
 h3{
 	font-size:100%;
+	text-align: center;
 }
 
 footer{
@@ -67,9 +68,8 @@ footer{
 
 .bar-li:hover{
 	transition: .5s ease;
-	height:20%;
+	background-color:#6fa8dc;
 }
-
 .bar-ul {
 	list-style-type: none;
 	overflow:hidden;
@@ -107,7 +107,7 @@ footer{
 	position: relative;
 	width: 30%;
 	/*width: 300px;*/
-    float:left; /* add this */
+	float:left; /* add this */
 }
 
 .image {
@@ -118,12 +118,22 @@ footer{
 }
 
 .contaminants{
-	width: 500px;
-    overflow: hidden;
-    margin-left:auto;
-    margin-right:auto;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .sectionsQuality img{
-	width:90%;
+	height:140px;
+}
+
+.person img{
+	width:40%;
+}
+
+.solutions-image{
+	width:30%;
+	margin-right:auto;
+	margin-left:auto;
+
 }
